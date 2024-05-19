@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taqueria", "Taqueria\Taqueria\Taqueria.csproj", "{A1CC0E16-E677-40CB-BA11-BB6EDF866053}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taqueria.Client", "Taqueria\Taqueria.Client\Taqueria.Client.csproj", "{3325C17C-E954-4C32-9A89-1D1768DBA36A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1CC0E16-E677-40CB-BA11-BB6EDF866053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CC0E16-E677-40CB-BA11-BB6EDF866053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CC0E16-E677-40CB-BA11-BB6EDF866053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CC0E16-E677-40CB-BA11-BB6EDF866053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3325C17C-E954-4C32-9A89-1D1768DBA36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3325C17C-E954-4C32-9A89-1D1768DBA36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3325C17C-E954-4C32-9A89-1D1768DBA36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3325C17C-E954-4C32-9A89-1D1768DBA36A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A214F7E-2AE2-43EE-9F1D-E96FB6353564}
+	EndGlobalSection
+EndGlobal
