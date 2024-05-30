@@ -37,7 +37,7 @@ namespace Taqueria.Repositorios
 
         public async Task<List<Persona>> GetAll()
         {
-            return await _context.Personas.ToListAsync();
+            return await _context.Personas.Include(p=>p.Platillo).ToListAsync();
         }
         public async Task<List<Platillo>> GetPlatillo()
         {

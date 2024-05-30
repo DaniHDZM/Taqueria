@@ -6,6 +6,7 @@ namespace Taqueria.Modelos
     {
         public int Id { get; set; }
         public int PlatilloId { get; set; }
+
         public virtual Platillo? Platillo { get; set; }
         [Required(ErrorMessage ="El nombre es obligatorio")]
         [StringLength(100, ErrorMessage ="Maximo 100 caracteres")]
